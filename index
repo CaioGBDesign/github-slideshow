@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Glider.js demos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+        <link rel="stylesheet" href="sass/component/_c-carousel.scss">
+    </head>
+
+    <body>
+
+        <article class="c-carousel c-carousel--simple">
+          <div class="c-carousel__slides js-carousel--simple">
+            <div class="c-carousel__slide"><img src="https://www.qualidoc.com.br/file/general/qualidoc-cb-como-comprar.png" alt=""></div>
+            <div class="c-carousel__slide"><img src="https://www.qualidoc.com.br/file/general/qualidoc-cb-cashback-02.png" alt=""></div>
+            <div class="c-carousel__slide"><img src="https://www.qualidoc.com.br/file/general/qualidoc-cb-afa.png" alt=""></div>
+            <div class="c-carousel__slide"><img src="https://www.qualidoc.com.br/file/general/qualidoc-cb-frete-gratis-foguete.png" alt=""></div>
+            <div class="c-carousel__slide"><img src="https://www.qualidoc.com.br/file/general/qualidoc-cb-pbm-02.png" alt=""></div>
+          </div>
+        </article>
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="js/slid-show-qualidoc.js"></script>
+</html>
